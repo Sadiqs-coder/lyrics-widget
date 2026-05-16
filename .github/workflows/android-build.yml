@@ -36,6 +36,9 @@ jobs:
       - name: Add Android Platform
         run: npx cap add android || true
 
+      - name: Copy Web Assets to Android
+        run: npx cap copy android
+
       - name: Sync Capacitor Android
         run: npx cap sync android
 
