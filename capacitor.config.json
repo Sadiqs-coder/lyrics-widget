@@ -1,0 +1,13 @@
+{
+  "appId": "com.aura.lyrics",
+  "appName": "aura lyrics",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    },
+    "CapacitorUpdater": {
+      "appId": "com.aura.lyrics"
+    }
+  }
+}
